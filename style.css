@@ -1,0 +1,225 @@
+@import "modal.css";
+
+body {
+  background-color: greenyellow;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: red;
+}
+
+.todo {
+  padding-top: 10px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: blue;
+  font-weight: bolder;
+  text-align: start;
+}
+
+.info1 {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-top: 5px;
+}
+#create {
+  font-size: 20px;
+  margin: 5px 5px;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+#taskType {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.inputGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: greenyellow;
+  justify-content: center;
+  position: static;
+}
+
+.inputGridItem {
+  background-color: greenyellow;
+  font-size: 20px;
+  text-align: start;
+  font-weight: bolder;
+}
+
+#task {
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+#time {
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+#addTask {
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bolder;
+  background-color: royalblue;
+}
+
+.taskInfo {
+  font-weight: bold;
+  font-size: 30px;
+  color : black;
+}
+
+.taskGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: greenyellow;
+  justify-content: center;
+  position: static;
+}
+
+.taskGridItem {
+  background-color: greenyellow;
+  font-size: 20px;
+  color: black;
+  text-align: start;
+  font-weight: bolder;
+}
+
+.updateButton {
+  border-radius: 10px; 
+  font-size: 15px; 
+  font-weight: bolder; 
+  background-color: blue; 
+  color: white;
+  margin-left: 20px;
+}
+
+.deleteButton {
+  border-radius: 10px; 
+  font-size: 15px; 
+  font-weight: bolder; 
+  background-color: red; 
+  color: white;
+  margin-left: 60px;
+}
+
+@media only screen and (min-width: 760px) {
+  h1 {
+    text-transform: uppercase;
+    color: red;
+    font-size: 55px
+  }
+  .info1 {
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 5px;
+  }
+  #create {
+    font-size: 40px;
+    margin: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+  }
+  
+  #taskType {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  .inputGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: greenyellow;
+    justify-content: center;
+    position: static;
+  }
+  
+  .inputGridItem {
+    background-color: greenyellow;
+    font-size: 40px;
+    text-align: start;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+  
+  #task {
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  #time {
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+  
+  #addTask {
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+    background-color: royalblue;
+  }
+  
+  .taskInfo {
+    font-weight: bold;
+    font-size: 50px;
+    color : black;
+    margin-top: 10px;
+  }
+  
+  .taskGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: greenyellow;
+    justify-content: center;
+    position: static;
+  }
+  
+  .taskGridItem {
+    background-color: greenyellow;
+    font-size: 35px;
+    color: black;
+    text-align: start;
+    font-weight: bolder;
+  }
+
+  .updateButton {
+    border-radius: 10px; 
+    font-size: 30px; 
+    font-weight: bolder; 
+    background-color: blue; 
+    color: white;
+    margin-left: 60px;
+  }
+
+  .deleteButton {
+    border-radius: 10px; 
+    font-size: 30px; 
+    font-weight: bolder; 
+    background-color: red; 
+    color: white;
+    margin-left: 60px;
+  }
+  
+}
